@@ -1,18 +1,18 @@
 $wall: #E96576;
 $floor: #C76F78;
-$brown: #5D5155;
+$brown: #402F42;
 $lightbrown: #919086;
 $skin: #FCE0CE;
 $darkskin: #F3C1A9;
 $gray: #A69DA1;
+$darkgray: gray;
 $darkblue: #2C6691;
-$blue: #499DCC;
+$blue: #53C7F0;
 $lightblue: #439aab;
-$yellow: #E6CF49;
+$yellow: #FCFA70;
 $orange: #F78C45;
 $white: #FFF;
-
-// w - 12px
+$red: #B72A67;
 
 div {
   display: inline-flex;
@@ -24,15 +24,760 @@ div {
 
 .card {
   background-color: $wall;
-  height: 600px;
+  height: 615px;
   position: relative;
   width: 800px;
+  &__boy {
+    @extend .absolute;    
+    background-color: $skin;
+    height: 276px;
+    width: 276px;
+    margin: 50px;
+    &--1 {
+      @extend .absolute;
+      background-color: $wall;
+      height: 12px;
+      width: 84px;
+    }
+    &--2 {
+      @extend .absolute;
+      background-color: $gray;
+      height: 12px;
+      left: 84px;
+      width: 144px;
+    }
+    &--3 {
+      @extend .absolute;
+      background-color: $wall;
+      height: 12px;
+      left: 228px;
+      width: 48px;
+    }
+    &--4 {
+      @extend .absolute;
+      @extend .card__boy--1;
+      top: 12px;
+      width: 60px;
+    }
+    &--5 {
+      @extend .absolute;
+      @extend .card__boy--2;
+      left: 60px;
+      top: 12px;
+      width: 192px;
+    }
+    &--6 {
+      @extend .absolute;
+      @extend .card__boy--3;
+      left: 252px;
+      top: 12px;
+      width: 24px;
+    }
+    &--7 {
+      @extend .absolute;
+      @extend .card__boy--4;
+      top: 24px;
+    }
+    &--8 {
+      @extend .absolute;
+      @extend .card__boy--2;
+      left: 60px;
+      top: 24px;
+    }
+    &--9 {
+      @extend .absolute;
+      background-color: $darkgray;
+      height: 12px;
+      left: 192px;
+      top: 24px;
+      width: 24px;
+    }
+    &--10 {
+      @extend .absolute;
+      @extend .card__boy--5;
+      left: 216px;
+      top: 24px;
+      width: 48px;
+    }
+    &--11 {
+      @extend .absolute;
+      background-color: $wall;
+      height: 12px;
+      left: 264px;
+      top: 24px;
+      width: 12px;
+    }
+    &--12 {
+      @extend .absolute;
+      background-color: $wall;
+      height: 12px;
+      top: 36px;
+      width: 24px;
+    }
+    &--13 {
+      @extend .absolute;
+      @extend .card__boy--5;
+      left: 24px;
+      top: 36px;
+    }
+    &--14 {
+      @extend .absolute;
+      @extend .card__boy--9;
+      left: 204px;
+      top: 36px;
+      width: 36px;
+    }
+    &--15 {
+      @extend .absolute;
+      background-color: $gray;
+      height: 12px;
+      left: 240px;
+      top: 36px;
+      width: 12px;
+    }
+    &--16 {
+      @extend .absolute;
+      background-color: $wall;
+      height: 12px;
+      left: 252px;
+      top: 36px;
+      width: 24px;
+    }
+    &--17 {
+      @extend .absolute;
+      @extend .card__boy--12;
+      top: 48px;
+    }
+    &--18 {
+      @extend .absolute;
+      background-color: $gray;
+      height: 12px;
+      left: 24px;
+      top: 48px;
+      width: 24px;
+    }
+    &--19 {
+      @extend .absolute;
+      @extend .card__boy--2;
+      background-color: $darkgray;
+      left: 48px;
+      top: 48px;
+      width: 168px;
+    }
+    &--20 {
+      @extend .absolute;
+      @extend .card__boy--10;
+      left: 216px;
+      top: 48px;
+      width: 60px;
+    }
+    &--21 {
+      @extend .absolute;
+      @extend .card__boy--17;
+      top: 60px;
+    }
+    &--22 {
+      @extend .absolute;
+      @extend .card__boy--20;
+      left: 24px;
+      top: 60px;
+      width: 48px;
+    }
+    &--23 {
+      @extend .absolute;
+      @extend .card__boy--19;
+      left: 72px;
+      top: 60px;
+      width: 132px;
+    }
+    &--24 {
+      @extend .absolute;
+      @extend .card__boy--20;
+      left: 204px;
+      top: 60px;
+      width: 72px;
+    }
+    &--25 {
+      @extend .absolute;
+      background-color: $gray;
+      height: 12px;
+      top: 72px;
+      width: 84px;
+    }
+    &--26 {
+      @extend .absolute;
+      background-color: $darkskin;
+      left: 84px;
+      height: 12px;
+      top: 72px;
+      width: 108px;
+    }
+    &--27 {
+      @extend .absolute;
+      @extend .card__boy--25;
+      left: 192px;
+    }
+    &--28 {
+      @extend .absolute;
+      @extend .card__boy--25;
+      top: 84px;
+      width: 72px;
+    }
+    &--29 {
+      @extend .absolute;
+      background-color: $darkskin;
+      left: 72px;
+      height: 12px;
+      top: 84px;
+      width: 12px;
+    }
+    &--30 {
+      @extend .absolute;
+      @extend .card__boy--29;
+      left: 192px;
+    }
+    &--31 {
+      @extend .absolute;
+      @extend .card__boy--28;
+      left: 204px;
+    }
+    &--32 {
+      @extend .absolute;
+      @extend .card__boy--28;
+      top: 96px;
+      width: 60px;
+    }
+    &--33 {
+      @extend .absolute;
+      @extend .card__boy--29;
+      left: 60px;
+      top: 96px;
+    }
+    &--34 {
+      @extend .absolute;
+      @extend .card__boy--30;
+      left: 204px;
+      top: 96px;
+    }
+    &--35 {
+      @extend .absolute;
+      @extend .card__boy--32;
+      left: 216px;
+      top: 96px;
+    }
+    &--36 {
+      @extend .absolute;
+      @extend .card__boy--28;
+      top: 108px;
+      width: 48px;
+    }
+    &--37 {
+      @extend .absolute;
+      @extend .card__boy--29;
+      left: 48px;
+      height: 24px;
+      top: 108px;
+    }
+    &--38 {
+      @extend .absolute;
+      @extend .card__boy--29;
+      left: 216px;
+      height: 24px;
+      top: 108px;
+    }
+    &--39 {
+      @extend .absolute;
+      background-color: $wall;
+      height: 48px;
+      top: 120px;
+      width: 12px;
+    }
+    &--40 {
+      @extend .absolute;
+      background-color: $gray;
+      height: 60px;
+      left: 12px;
+      top: 120px;
+      width: 36px;
+    }
+    &--41 {
+      @extend .absolute;
+      background-color: $gray;
+      height: 12px;
+      top: 168px;
+      width: 12px;
+    }
+    &--42 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 12px;
+      left: 72px;
+      top: 132px;
+      width: 24px;
+    }
+    &--43 {
+      @extend .absolute;
+      @extend .card__boy--42;
+      left: 180px;
+    }
+    &--44 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 12px;
+      left: 60px;
+      top: 144px;
+      width: 12px;
+    }
+    &--45 {
+      @extend .absolute;
+      @extend .card__boy--44;
+      left: 96px;
+    }
+    &--46 {
+      @extend .absolute;
+      @extend .card__boy--44;
+      left: 168px;
+    }
+    &--47 {
+      @extend .absolute;
+      @extend .card__boy--44;
+      left: 204px;
+    }
+    &--48 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 12px;
+      left: 60px;
+      top: 168px;
+      width: 48px;
+    }
+    &--49 {
+      @extend .absolute;
+      @extend .card__boy--48;
+      left: 168px;
+    }
+    &--50 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 12px;
+      left: 108px;
+      top: 180px;
+      width: 60px;
+    }
+    &--51 {
+      @extend .absolute;
+      background-color: $gray;
+      height: 72px;
+      left: 228px;
+      top: 108px;
+      width: 36px;
+    }
+    &--52 {
+      @extend .absolute;
+      background-color: $gray;
+      height: 36px;
+      left: 264px;
+      top: 108px;
+      width: 12px;
+    }
+    &--53 {
+      @extend .absolute;
+      background-color: $wall;
+      height: 24px;
+      left: 264px;
+      top: 144px;
+      width: 12px;
+    }
+    &--54 {
+      @extend .absolute;
+      @extend .card__boy--41;
+      left: 264px;
+    }
+    &--55 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 24px;
+      left: 48px;
+      top: 180px;
+      width: 12px;
+    }
+    &--56 {
+      @extend .absolute;
+      @extend .card__boy--55;
+      left: 216px;
+    }
+    &--57 {
+      @extend .absolute;
+      @extend .card__boy--44;
+      top: 192px;
+      left: 108px;
+    }
+    &--58 {
+      @extend .absolute;
+      @extend .card__boy--57;
+      left: 156px;
+    }
+    &--59 {
+      @extend .absolute;
+      @extend .card__boy--48;
+      top: 204px;
+    }
+    &--60 {
+      @extend .absolute;
+      @extend .card__boy--49;
+      top: 204px;
+    }
+    &--61 {
+      @extend .absolute;
+      @extend .card__boy--55;
+      background-color: $darkskin;
+      left: 132px;
+      top: 192px;
+    }
+    &--62 {
+      @extend .absolute;
+      background-color: $wall;
+      height: 96px;
+      top: 180px;
+      width: 12px;
+    }
+    &--63 {
+      @extend .absolute;
+      @extend .card__boy--62;
+      left: 264px;
+    }
+    &--64 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 48px;
+      left: 12px;
+      top: 180px;
+      width: 12px;
+    }
+    &--65 {
+      @extend .absolute;
+      @extend .card__boy--64;
+      left: 252px;
+    }
+    &--66 {
+      @extend .absolute;
+      @extend .card__boy--44;
+      left: 24px;
+      top: 180px;
+    }
+    &--67 {
+      @extend .absolute;
+      @extend .card__boy--66;
+      left: 240px;
+    }
+    &--68 {
+      @extend .absolute;
+      background-color: $gray;
+      height: 24px;
+      left: 36px;
+      top: 180px;
+      width: 12px;
+    }
+    &--69 {
+      @extend .absolute;
+      @extend .card__boy--68;
+      left: 228px;
+    }
+    &--70 {
+      @extend .absolute;
+      @extend .card__boy--29;
+      background-color: $brown;
+      left: 24px;
+      top: 180px;
+    }
+    &--71 {
+      @extend .absolute;
+      @extend .card__boy--70;
+      background-color: $brown;
+      left: 240px;
+    }
+    &--72 {
+      @extend .absolute;
+      @extend .card__boy--39;
+      left: 12px;
+      top: 228px;
+    }
+    &--73 {
+      @extend .absolute;
+      @extend .card__boy--72;
+      left: 252px;
+    }
+    &--74 {
+      @extend .absolute;
+      @extend .card__boy--70;
+      background-color: $darkskin;
+      top: 192px;
+    }
+    &--75 {
+      @extend .absolute;
+      @extend .card__boy--71;
+      background-color: $darkskin;
+      top: 192px;
+    }
+    &--76 {
+      @extend .absolute;
+      @extend .card__boy--70;
+      top: 228px;
+    }
+    &--77 {
+      @extend .absolute;
+      @extend .card__boy--71;
+      top: 228px;
+    }
+    &--78 {
+      @extend .absolute;
+      @extend .card__boy--70;
+      background-color: $darkskin;
+      left: 48px;
+      top: 228px;
+    }
+    &--79 {
+      @extend .absolute;
+      @extend .card__boy--71;
+      background-color: $darkskin;
+      left: 216px;
+      top: 228px;
+    }
+    &--80 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 48px;
+      left: 36px;
+      top: 204px;
+      width: 12px;
+    }
+    &--81 {
+      @extend .absolute;
+      @extend .card__boy--80;
+      left: 228px;
+    }
+    &--82 {
+      @extend .absolute;
+      @extend .card__boy--55;
+      top: 240px;
+    }
+    &--83 {
+      @extend .absolute;
+      @extend .card__boy--56;
+      top: 240px;
+    }
+    &--84 {
+      @extend .absolute;
+      @extend .card__boy--42;
+      left: 60px;
+      top: 252px;
+    }
+    &--85 {
+      @extend .absolute;
+      @extend .card__boy--43;
+      left: 192px;
+      top: 252px;
+    }
+    &--86 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 12px;
+      left: 84px;
+      top: 264px;
+      width: 108px;
+    }
+    &--87 {
+      @extend .absolute;
+      @extend .card__boy--84;
+      background-color: $wall;
+      top: 264px;
+    }
+    &--88 {
+      @extend .absolute;
+      @extend .card__boy--85;
+      background-color: $wall;
+      top: 264px;
+    }
+    &--89 {
+      @extend .absolute;
+      @extend .card__boy--76;
+      background-color: $wall;
+      top: 240px;
+    }
+    &--90 {
+      @extend .absolute;
+      @extend .card__boy--77;
+      background-color: $wall;
+      top: 240px;
+    }
+    &--91 {
+      @extend .absolute;
+      @extend .card__boy--78;
+      background-color: $wall;
+      top: 264px;
+    }
+    &--92 {
+      @extend .absolute;
+      @extend .card__boy--79;
+      background-color: $wall;
+      top: 264px;
+    }
+    &--93 {
+      @extend .absolute;
+      background-color: $wall;
+      height: 24px;
+      left: 24px;
+      top: 252px;
+      width: 24px;
+    }
+    &--94 {
+      @extend .absolute;
+      @extend .card__boy--93;
+      background-color: $wall;
+      left: 228px;
+    }
+    &--95 {
+      @extend .absolute;
+      @extend .card__boy--42;
+      top: 276px;
+      left: 60px;
+    }
+    &--96 {
+      @extend .absolute;
+      @extend .card__boy--95;
+      left: 192px;
+    }
+    &--97 {
+      @extend .absolute;
+      @extend .card__boy--86;
+      background-color: $darkgray;
+      top: 276px;
+    }
+    &--98 {
+      @extend .absolute;
+      @extend .card__boy--61;
+      top: 276px;
+    }
+    &--99 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 168px;
+      left: 48px;
+      top: 288px;
+      width: 12px;
+    }
+    &--100 {
+      @extend .absolute;
+      @extend .card__boy--99;
+      left: 216px;
+    }
+    &--101 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 36px;
+      left: 60px;
+      top: 456px;
+      width: 12px;
+    }
+    &--102 {
+      @extend .absolute;
+      @extend .card__boy--101;
+      left: 204px;
+    }
+    &--103 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 24px;
+      left: 72px;
+      top: 492px;
+      width: 60px;
+    }
+    &--104 {
+      @extend .absolute;
+      @extend .card__boy--103;
+      left: 144px;
+    }
+    &--105 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 24px;
+      left: 120px;
+      top: 468px;
+      width: 12px;
+    }
+    &--106 {
+      @extend .absolute;
+      @extend .card__boy--105;
+      left: 144px;
+    }
+    &--107 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 12px;
+      left: 120px;
+      top: 456px;
+      width: 36px;
+    }
+    &--108 {
+      @extend .absolute;
+      background-color: $blue;
+      height: 36px;
+      left: 72px;
+      top: 456px;
+      width: 48px;
+    }
+    &--109 {
+      @extend .absolute;
+      @extend .card__boy--108;
+      left: 156px;
+    }
+    &--110 {
+      @extend .absolute;
+      background-color: $blue;
+      height: 36px;
+      left: 60px;
+      top: 420px;
+      width: 156px;
+    }
+    &--111 {
+      @extend .absolute;
+      background-color: $red;
+      height: 12px;
+      left: 60px;
+      top: 408px;
+      width: 63px;
+    }
+    &--112 {
+      @extend .absolute;
+      background-color: $yellow;
+      height: 12px;
+      left: 123px;
+      top: 408px;
+      width: 30px;
+    }
+    &--113 {
+      @extend .absolute;
+      background-color: $red;
+      height: 12px;
+      left: 153px;
+      top: 408px;
+      width: 63px;
+    }
+    &--114 {
+      @extend .absolute;
+      background-color: $darkgray;
+      height: 120px;
+      left: 60px;
+      top: 288px;
+      width: 156px;
+    }
+  }
   &__message {
+    @extend .absolute;
     background-color: $white;
     bottom: 150px;
     height: 264px;
-    position: absolute;
-    right: 35px;;
+    right: 35px;
     width: 390px;
     &--1 {
       @extend .absolute;

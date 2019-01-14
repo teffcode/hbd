@@ -2,21 +2,576 @@ div {
   display: inline-flex;
 }
 
-.absolute, .card__message--49, .card__message--48, .card__message--47, .card__message--46, .card__message--45, .card__message--44, .card__message--43, .card__message--42, .card__message--41, .card__message--40, .card__message--39, .card__message--38, .card__message--37, .card__message--36, .card__message--35, .card__message--34, .card__message--33, .card__message--32, .card__message--31, .card__message--30, .card__message--29, .card__message--28, .card__message--27, .card__message--26, .card__message--25, .card__message--24, .card__message--23, .card__message--22, .card__message--21, .card__message--20, .card__message--19, .card__message--18, .card__message--17, .card__message--16, .card__message--15, .card__message--14, .card__message--13, .card__message--12, .card__message--11, .card__message--10, .card__message--9, .card__message--8, .card__message--7, .card__message--6, .card__message--5, .card__message--4, .card__message--3, .card__message--2, .card__message--1 {
+.absolute, .card__message--49, .card__message--48, .card__message--47, .card__message--49, .card__message--48, .card__message--46, .card__message--45, .card__message--44, .card__message--43, .card__message--42, .card__message--41, .card__message--40, .card__message--42, .card__message--39, .card__message--40, .card__message--42, .card__message--38, .card__message--41, .card__message--37, .card__message--36, .card__message--38, .card__message--41, .card__message--35, .card__message--37, .card__message--34, .card__message--33, .card__message--32, .card__message--36, .card__message--38, .card__message--41, .card__message--31, .card__message--30, .card__message--29, .card__message--28, .card__message--29, .card__message--27, .card__message--33, .card__message--26, .card__message--25, .card__message--32, .card__message--36, .card__message--38, .card__message--41, .card__message--24, .card__message--31, .card__message--23, .card__message--22, .card__message--21, .card__message--20, .card__message--39, .card__message--40, .card__message--42, .card__message--21, .card__message--19, .card__message--23, .card__message--18, .card__message--17, .card__message--22, .card__message--16, .card__message--15, .card__message--28, .card__message--29, .card__message--19, .card__message--23, .card__message--14, .card__message--18, .card__message--13, .card__message--17, .card__message--22, .card__message--12, .card__message--16, .card__message--11, .card__message--10, .card__message--9, .card__message--11, .card__message--8, .card__message--10, .card__message--7, .card__message--6, .card__message--30, .card__message--27, .card__message--33, .card__message--26, .card__message--25, .card__message--32, .card__message--36, .card__message--38, .card__message--41, .card__message--14, .card__message--18, .card__message--13, .card__message--17, .card__message--22, .card__message--5, .card__message--35, .card__message--37, .card__message--34, .card__message--24, .card__message--31, .card__message--20, .card__message--39, .card__message--40, .card__message--42, .card__message--21, .card__message--12, .card__message--16, .card__message--7, .card__message--4, .card__message--46, .card__message--3, .card__message--43, .card__message--2, .card__message--45, .card__message--9, .card__message--11, .card__message--1, .card__message--44, .card__message, .card__boy--114, .card__boy--113, .card__boy--112, .card__boy--111, .card__boy--110, .card__boy--109, .card__boy--108, .card__boy--109, .card__boy--107, .card__boy--106, .card__boy--105, .card__boy--106, .card__boy--104, .card__boy--103, .card__boy--104, .card__boy--102, .card__boy--101, .card__boy--102, .card__boy--100, .card__boy--99, .card__boy--100, .card__boy--98, .card__boy--97, .card__boy--96, .card__boy--95, .card__boy--94, .card__boy--93, .card__boy--92, .card__boy--91, .card__boy--90, .card__boy--89, .card__boy--88, .card__boy--87, .card__boy--86, .card__boy--85, .card__boy--84, .card__boy--83, .card__boy--82, .card__boy--81, .card__boy--80, .card__boy--79, .card__boy--78, .card__boy--77, .card__boy--76, .card__boy--75, .card__boy--74, .card__boy--73, .card__boy--72, .card__boy--71, .card__boy--70, .card__boy--69, .card__boy--68, .card__boy--67, .card__boy--66, .card__boy--65, .card__boy--64, .card__boy--63, .card__boy--62, .card__boy--61, .card__boy--98, .card__boy--60, .card__boy--59, .card__boy--58, .card__boy--57, .card__boy--56, .card__boy--55, .card__boy--54, .card__boy--53, .card__boy--52, .card__boy--51, .card__boy--50, .card__boy--49, .card__boy--48, .card__boy--47, .card__boy--46, .card__boy--45, .card__boy--44, .card__boy--43, .card__boy--42, .card__boy--41, .card__boy--40, .card__boy--39, .card__boy--38, .card__boy--37, .card__boy--36, .card__boy--35, .card__boy--34, .card__boy--33, .card__boy--32, .card__boy--31, .card__boy--30, .card__boy--29, .card__boy--28, .card__boy--27, .card__boy--26, .card__boy--25, .card__boy--24, .card__boy--23, .card__boy--22, .card__boy--21, .card__boy--20, .card__boy--19, .card__boy--18, .card__boy--17, .card__boy--16, .card__boy--15, .card__boy--14, .card__boy--13, .card__boy--12, .card__boy--11, .card__boy--10, .card__boy--9, .card__boy--8, .card__boy--7, .card__boy--6, .card__boy--5, .card__boy--4, .card__boy--3, .card__boy--2, .card__boy--1, .card__boy {
   position: absolute;
 }
 
 .card {
   background-color: #E96576;
-  height: 600px;
+  height: 615px;
   position: relative;
   width: 800px;
+}
+.card__boy {
+  background-color: #FCE0CE;
+  height: 276px;
+  width: 276px;
+  margin: 50px;
+}
+.card__boy--1, .card__boy--4, .card__boy--7 {
+  background-color: #E96576;
+  height: 12px;
+  width: 84px;
+}
+.card__boy--2, .card__boy--19, .card__boy--23, .card__boy--8, .card__boy--5, .card__boy--13, .card__boy--10, .card__boy--20, .card__boy--24, .card__boy--22 {
+  background-color: #A69DA1;
+  height: 12px;
+  left: 84px;
+  width: 144px;
+}
+.card__boy--3, .card__boy--6 {
+  background-color: #E96576;
+  height: 12px;
+  left: 228px;
+  width: 48px;
+}
+.card__boy--4, .card__boy--7 {
+  top: 12px;
+  width: 60px;
+}
+.card__boy--5, .card__boy--13, .card__boy--10, .card__boy--20, .card__boy--24, .card__boy--22 {
+  left: 60px;
+  top: 12px;
+  width: 192px;
+}
+.card__boy--6 {
+  left: 252px;
+  top: 12px;
+  width: 24px;
+}
+.card__boy--7 {
+  top: 24px;
+}
+.card__boy--8 {
+  left: 60px;
+  top: 24px;
+}
+.card__boy--9, .card__boy--14 {
+  background-color: gray;
+  height: 12px;
+  left: 192px;
+  top: 24px;
+  width: 24px;
+}
+.card__boy--10, .card__boy--20, .card__boy--24, .card__boy--22 {
+  left: 216px;
+  top: 24px;
+  width: 48px;
+}
+.card__boy--11 {
+  background-color: #E96576;
+  height: 12px;
+  left: 264px;
+  top: 24px;
+  width: 12px;
+}
+.card__boy--12, .card__boy--17, .card__boy--21 {
+  background-color: #E96576;
+  height: 12px;
+  top: 36px;
+  width: 24px;
+}
+.card__boy--13 {
+  left: 24px;
+  top: 36px;
+}
+.card__boy--14 {
+  left: 204px;
+  top: 36px;
+  width: 36px;
+}
+.card__boy--15 {
+  background-color: #A69DA1;
+  height: 12px;
+  left: 240px;
+  top: 36px;
+  width: 12px;
+}
+.card__boy--16 {
+  background-color: #E96576;
+  height: 12px;
+  left: 252px;
+  top: 36px;
+  width: 24px;
+}
+.card__boy--17, .card__boy--21 {
+  top: 48px;
+}
+.card__boy--18 {
+  background-color: #A69DA1;
+  height: 12px;
+  left: 24px;
+  top: 48px;
+  width: 24px;
+}
+.card__boy--19, .card__boy--23 {
+  background-color: gray;
+  left: 48px;
+  top: 48px;
+  width: 168px;
+}
+.card__boy--20, .card__boy--24, .card__boy--22 {
+  left: 216px;
+  top: 48px;
+  width: 60px;
+}
+.card__boy--21 {
+  top: 60px;
+}
+.card__boy--22 {
+  left: 24px;
+  top: 60px;
+  width: 48px;
+}
+.card__boy--23 {
+  left: 72px;
+  top: 60px;
+  width: 132px;
+}
+.card__boy--24 {
+  left: 204px;
+  top: 60px;
+  width: 72px;
+}
+.card__boy--25, .card__boy--28, .card__boy--36, .card__boy--32, .card__boy--35, .card__boy--31, .card__boy--27 {
+  background-color: #A69DA1;
+  height: 12px;
+  top: 72px;
+  width: 84px;
+}
+.card__boy--26 {
+  background-color: #F3C1A9;
+  left: 84px;
+  height: 12px;
+  top: 72px;
+  width: 108px;
+}
+.card__boy--27 {
+  left: 192px;
+}
+.card__boy--28, .card__boy--36, .card__boy--32, .card__boy--35, .card__boy--31 {
+  top: 84px;
+  width: 72px;
+}
+.card__boy--29, .card__boy--70, .card__boy--78, .card__boy--91, .card__boy--76, .card__boy--89, .card__boy--74, .card__boy--71, .card__boy--79, .card__boy--92, .card__boy--77, .card__boy--90, .card__boy--75, .card__boy--38, .card__boy--37, .card__boy--33, .card__boy--30, .card__boy--34 {
+  background-color: #F3C1A9;
+  left: 72px;
+  height: 12px;
+  top: 84px;
+  width: 12px;
+}
+.card__boy--30, .card__boy--34 {
+  left: 192px;
+}
+.card__boy--31 {
+  left: 204px;
+}
+.card__boy--32, .card__boy--35 {
+  top: 96px;
+  width: 60px;
+}
+.card__boy--33 {
+  left: 60px;
+  top: 96px;
+}
+.card__boy--34 {
+  left: 204px;
+  top: 96px;
+}
+.card__boy--35 {
+  left: 216px;
+  top: 96px;
+}
+.card__boy--36 {
+  top: 108px;
+  width: 48px;
+}
+.card__boy--37 {
+  left: 48px;
+  height: 24px;
+  top: 108px;
+}
+.card__boy--38 {
+  left: 216px;
+  height: 24px;
+  top: 108px;
+}
+.card__boy--39, .card__boy--72, .card__boy--73 {
+  background-color: #E96576;
+  height: 48px;
+  top: 120px;
+  width: 12px;
+}
+.card__boy--40 {
+  background-color: #A69DA1;
+  height: 60px;
+  left: 12px;
+  top: 120px;
+  width: 36px;
+}
+.card__boy--41, .card__boy--54 {
+  background-color: #A69DA1;
+  height: 12px;
+  top: 168px;
+  width: 12px;
+}
+.card__boy--42, .card__boy--95, .card__boy--96, .card__boy--84, .card__boy--87, .card__boy--43, .card__boy--85, .card__boy--88 {
+  background-color: #402F42;
+  height: 12px;
+  left: 72px;
+  top: 132px;
+  width: 24px;
+}
+.card__boy--43, .card__boy--85, .card__boy--88 {
+  left: 180px;
+}
+.card__boy--44, .card__boy--66, .card__boy--67, .card__boy--57, .card__boy--58, .card__boy--47, .card__boy--46, .card__boy--45 {
+  background-color: #402F42;
+  height: 12px;
+  left: 60px;
+  top: 144px;
+  width: 12px;
+}
+.card__boy--45 {
+  left: 96px;
+}
+.card__boy--46 {
+  left: 168px;
+}
+.card__boy--47 {
+  left: 204px;
+}
+.card__boy--48, .card__boy--59, .card__boy--49, .card__boy--60 {
+  background-color: #402F42;
+  height: 12px;
+  left: 60px;
+  top: 168px;
+  width: 48px;
+}
+.card__boy--49, .card__boy--60 {
+  left: 168px;
+}
+.card__boy--50 {
+  background-color: #402F42;
+  height: 12px;
+  left: 108px;
+  top: 180px;
+  width: 60px;
+}
+.card__boy--51 {
+  background-color: #A69DA1;
+  height: 72px;
+  left: 228px;
+  top: 108px;
+  width: 36px;
+}
+.card__boy--52 {
+  background-color: #A69DA1;
+  height: 36px;
+  left: 264px;
+  top: 108px;
+  width: 12px;
+}
+.card__boy--53 {
+  background-color: #E96576;
+  height: 24px;
+  left: 264px;
+  top: 144px;
+  width: 12px;
+}
+.card__boy--54 {
+  left: 264px;
+}
+.card__boy--55, .card__boy--82, .card__boy--61, .card__boy--98, .card__boy--56, .card__boy--83 {
+  background-color: #402F42;
+  height: 24px;
+  left: 48px;
+  top: 180px;
+  width: 12px;
+}
+.card__boy--56, .card__boy--83 {
+  left: 216px;
+}
+.card__boy--57, .card__boy--58 {
+  top: 192px;
+  left: 108px;
+}
+.card__boy--58 {
+  left: 156px;
+}
+.card__boy--59 {
+  top: 204px;
+}
+.card__boy--60 {
+  top: 204px;
+}
+.card__boy--61, .card__boy--98 {
+  background-color: #F3C1A9;
+  left: 132px;
+  top: 192px;
+}
+.card__boy--62, .card__boy--63 {
+  background-color: #E96576;
+  height: 96px;
+  top: 180px;
+  width: 12px;
+}
+.card__boy--63 {
+  left: 264px;
+}
+.card__boy--64, .card__boy--65 {
+  background-color: #402F42;
+  height: 48px;
+  left: 12px;
+  top: 180px;
+  width: 12px;
+}
+.card__boy--65 {
+  left: 252px;
+}
+.card__boy--66, .card__boy--67 {
+  left: 24px;
+  top: 180px;
+}
+.card__boy--67 {
+  left: 240px;
+}
+.card__boy--68, .card__boy--69 {
+  background-color: #A69DA1;
+  height: 24px;
+  left: 36px;
+  top: 180px;
+  width: 12px;
+}
+.card__boy--69 {
+  left: 228px;
+}
+.card__boy--70, .card__boy--78, .card__boy--91, .card__boy--76, .card__boy--89, .card__boy--74, .card__boy--71, .card__boy--79, .card__boy--92, .card__boy--77, .card__boy--90, .card__boy--75 {
+  background-color: #402F42;
+  left: 24px;
+  top: 180px;
+}
+.card__boy--71, .card__boy--79, .card__boy--92, .card__boy--77, .card__boy--90, .card__boy--75 {
+  background-color: #402F42;
+  left: 240px;
+}
+.card__boy--72, .card__boy--73 {
+  left: 12px;
+  top: 228px;
+}
+.card__boy--73 {
+  left: 252px;
+}
+.card__boy--74 {
+  background-color: #F3C1A9;
+  top: 192px;
+}
+.card__boy--75 {
+  background-color: #F3C1A9;
+  top: 192px;
+}
+.card__boy--76, .card__boy--89 {
+  top: 228px;
+}
+.card__boy--77, .card__boy--90 {
+  top: 228px;
+}
+.card__boy--78, .card__boy--91 {
+  background-color: #F3C1A9;
+  left: 48px;
+  top: 228px;
+}
+.card__boy--79, .card__boy--92 {
+  background-color: #F3C1A9;
+  left: 216px;
+  top: 228px;
+}
+.card__boy--80, .card__boy--81 {
+  background-color: #402F42;
+  height: 48px;
+  left: 36px;
+  top: 204px;
+  width: 12px;
+}
+.card__boy--81 {
+  left: 228px;
+}
+.card__boy--82 {
+  top: 240px;
+}
+.card__boy--83 {
+  top: 240px;
+}
+.card__boy--84, .card__boy--87 {
+  left: 60px;
+  top: 252px;
+}
+.card__boy--85, .card__boy--88 {
+  left: 192px;
+  top: 252px;
+}
+.card__boy--86, .card__boy--97 {
+  background-color: #402F42;
+  height: 12px;
+  left: 84px;
+  top: 264px;
+  width: 108px;
+}
+.card__boy--87 {
+  background-color: #E96576;
+  top: 264px;
+}
+.card__boy--88 {
+  background-color: #E96576;
+  top: 264px;
+}
+.card__boy--89 {
+  background-color: #E96576;
+  top: 240px;
+}
+.card__boy--90 {
+  background-color: #E96576;
+  top: 240px;
+}
+.card__boy--91 {
+  background-color: #E96576;
+  top: 264px;
+}
+.card__boy--92 {
+  background-color: #E96576;
+  top: 264px;
+}
+.card__boy--93, .card__boy--94 {
+  background-color: #E96576;
+  height: 24px;
+  left: 24px;
+  top: 252px;
+  width: 24px;
+}
+.card__boy--94 {
+  background-color: #E96576;
+  left: 228px;
+}
+.card__boy--95, .card__boy--96 {
+  top: 276px;
+  left: 60px;
+}
+.card__boy--96 {
+  left: 192px;
+}
+.card__boy--97 {
+  background-color: gray;
+  top: 276px;
+}
+.card__boy--98 {
+  top: 276px;
+}
+.card__boy--99, .card__boy--100 {
+  background-color: #402F42;
+  height: 168px;
+  left: 48px;
+  top: 288px;
+  width: 12px;
+}
+.card__boy--100 {
+  left: 216px;
+}
+.card__boy--101, .card__boy--102 {
+  background-color: #402F42;
+  height: 36px;
+  left: 60px;
+  top: 456px;
+  width: 12px;
+}
+.card__boy--102 {
+  left: 204px;
+}
+.card__boy--103, .card__boy--104 {
+  background-color: #402F42;
+  height: 24px;
+  left: 72px;
+  top: 492px;
+  width: 60px;
+}
+.card__boy--104 {
+  left: 144px;
+}
+.card__boy--105, .card__boy--106 {
+  background-color: #402F42;
+  height: 24px;
+  left: 120px;
+  top: 468px;
+  width: 12px;
+}
+.card__boy--106 {
+  left: 144px;
+}
+.card__boy--107 {
+  background-color: #402F42;
+  height: 12px;
+  left: 120px;
+  top: 456px;
+  width: 36px;
+}
+.card__boy--108, .card__boy--109 {
+  background-color: #53C7F0;
+  height: 36px;
+  left: 72px;
+  top: 456px;
+  width: 48px;
+}
+.card__boy--109 {
+  left: 156px;
+}
+.card__boy--110 {
+  background-color: #53C7F0;
+  height: 36px;
+  left: 60px;
+  top: 420px;
+  width: 156px;
+}
+.card__boy--111 {
+  background-color: #B72A67;
+  height: 12px;
+  left: 60px;
+  top: 408px;
+  width: 63px;
+}
+.card__boy--112 {
+  background-color: #FCFA70;
+  height: 12px;
+  left: 123px;
+  top: 408px;
+  width: 30px;
+}
+.card__boy--113 {
+  background-color: #B72A67;
+  height: 12px;
+  left: 153px;
+  top: 408px;
+  width: 63px;
+}
+.card__boy--114 {
+  background-color: gray;
+  height: 120px;
+  left: 60px;
+  top: 288px;
+  width: 156px;
 }
 .card__message {
   background-color: #FFF;
   bottom: 150px;
   height: 264px;
-  position: absolute;
   right: 35px;
   width: 390px;
 }
