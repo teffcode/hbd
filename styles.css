@@ -1,0 +1,224 @@
+div {
+  display: inline-flex;
+}
+
+.absolute, .card__message--49, .card__message--48, .card__message--47, .card__message--46, .card__message--45, .card__message--44, .card__message--43, .card__message--42, .card__message--41, .card__message--40, .card__message--39, .card__message--38, .card__message--37, .card__message--36, .card__message--35, .card__message--34, .card__message--33, .card__message--32, .card__message--31, .card__message--30, .card__message--29, .card__message--28, .card__message--27, .card__message--26, .card__message--25, .card__message--24, .card__message--23, .card__message--22, .card__message--21, .card__message--20, .card__message--19, .card__message--18, .card__message--17, .card__message--16, .card__message--15, .card__message--14, .card__message--13, .card__message--12, .card__message--11, .card__message--10, .card__message--9, .card__message--8, .card__message--7, .card__message--6, .card__message--5, .card__message--4, .card__message--3, .card__message--2, .card__message--1 {
+  position: absolute;
+}
+
+.card {
+  background-color: #E96576;
+  height: 600px;
+  position: relative;
+  width: 800px;
+}
+.card__message {
+  background-color: #FFF;
+  bottom: 150px;
+  height: 264px;
+  position: absolute;
+  right: 35px;
+  width: 390px;
+}
+.card__message--1, .card__message--44 {
+  background-color: #E96576;
+  height: 12px;
+  left: 0px;
+  width: 24px;
+}
+.card__message--2, .card__message--45, .card__message--9, .card__message--11 {
+  background-color: #E96576;
+  height: 12px;
+  right: 0px;
+  width: 24px;
+}
+.card__message--3, .card__message--43 {
+  background-color: #E96576;
+  height: 12px;
+  left: 0px;
+  top: 12px;
+  width: 12px;
+}
+.card__message--4, .card__message--46 {
+  background-color: #E96576;
+  height: 12px;
+  right: 0px;
+  top: 12px;
+  width: 12px;
+}
+.card__message--5, .card__message--35, .card__message--37, .card__message--34, .card__message--24, .card__message--31, .card__message--20, .card__message--39, .card__message--40, .card__message--42, .card__message--21, .card__message--12, .card__message--16, .card__message--7 {
+  background-color: #2C6691;
+  height: 72px;
+  left: 48px;
+  top: 36px;
+  width: 12px;
+}
+.card__message--6, .card__message--30, .card__message--27, .card__message--33, .card__message--26, .card__message--25, .card__message--32, .card__message--36, .card__message--38, .card__message--41, .card__message--14, .card__message--18, .card__message--13, .card__message--17, .card__message--22 {
+  background-color: #2C6691;
+  height: 12px;
+  left: 60px;
+  top: 72px;
+  width: 24px;
+}
+.card__message--7 {
+  left: 84px;
+}
+.card__message--8, .card__message--10 {
+  background-color: #2C6691;
+  height: 60px;
+  left: 108px;
+  top: 48px;
+  width: 12px;
+}
+.card__message--9, .card__message--11 {
+  background-color: #2C6691;
+  left: 120px;
+  top: 36px;
+}
+.card__message--10 {
+  left: 144px;
+}
+.card__message--11 {
+  top: 72px;
+}
+.card__message--12, .card__message--16 {
+  left: 168px;
+}
+.card__message--13, .card__message--17, .card__message--22 {
+  left: 180px;
+  top: 72px;
+}
+.card__message--14, .card__message--18 {
+  left: 180px;
+  top: 36px;
+}
+.card__message--15, .card__message--28, .card__message--29, .card__message--19, .card__message--23 {
+  background-color: #2C6691;
+  height: 24px;
+  left: 204px;
+  top: 48px;
+  width: 12px;
+}
+.card__message--16 {
+  left: 228px;
+}
+.card__message--17, .card__message--22 {
+  left: 240px;
+}
+.card__message--18 {
+  left: 240px;
+}
+.card__message--19, .card__message--23 {
+  left: 264px;
+}
+.card__message--20, .card__message--39, .card__message--40, .card__message--42, .card__message--21 {
+  height: 36px;
+  left: 288px;
+}
+.card__message--21 {
+  left: 324px;
+}
+.card__message--22 {
+  left: 300px;
+}
+.card__message--23 {
+  left: 312px;
+  top: 84px;
+}
+.card__message--24, .card__message--31 {
+  height: 84px;
+  top: 144px;
+}
+.card__message--25, .card__message--32, .card__message--36, .card__message--38, .card__message--41 {
+  top: 144px;
+}
+.card__message--26 {
+  top: 180px;
+}
+.card__message--27, .card__message--33 {
+  top: 216px;
+}
+.card__message--28, .card__message--29 {
+  left: 84px;
+  top: 156px;
+}
+.card__message--29 {
+  top: 192px;
+}
+.card__message--30 {
+  left: 108px;
+  top: 180px;
+  width: 36px;
+}
+.card__message--31 {
+  left: 156px;
+}
+.card__message--32, .card__message--36, .card__message--38, .card__message--41 {
+  left: 168px;
+}
+.card__message--33 {
+  left: 168px;
+}
+.card__message--34 {
+  height: 60px;
+  left: 192px;
+  top: 156px;
+}
+.card__message--35, .card__message--37 {
+  left: 216px;
+  top: 156px;
+}
+.card__message--36, .card__message--38, .card__message--41 {
+  left: 228px;
+}
+.card__message--37 {
+  left: 252px;
+}
+.card__message--38, .card__message--41 {
+  top: 180px;
+}
+.card__message--39, .card__message--40, .card__message--42 {
+  left: 276px;
+  top: 144px;
+}
+.card__message--40, .card__message--42 {
+  left: 324px;
+}
+.card__message--41 {
+  left: 288px;
+  width: 36px;
+}
+.card__message--42 {
+  left: 300px;
+  top: 192px;
+}
+.card__message--43 {
+  top: 240px;
+}
+.card__message--44 {
+  top: 252px;
+}
+.card__message--45 {
+  top: 252px;
+}
+.card__message--46 {
+  top: 240px;
+}
+.card__message--47, .card__message--49, .card__message--48 {
+  background-color: #FFF;
+  height: 12px;
+  left: 48px;
+  width: 48px;
+  top: 264px;
+}
+.card__message--48 {
+  width: 36px;
+  top: 276px;
+}
+.card__message--49 {
+  left: 36px;
+  width: 24px;
+  top: 288px;
+}
+
+/*# sourceMappingURL=styles.css.map */

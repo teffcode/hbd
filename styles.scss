@@ -1,0 +1,327 @@
+$wall: #E96576;
+$floor: #C76F78;
+$brown: #5D5155;
+$lightbrown: #919086;
+$skin: #FCE0CE;
+$darkskin: #F3C1A9;
+$gray: #A69DA1;
+$darkblue: #2C6691;
+$blue: #499DCC;
+$lightblue: #439aab;
+$yellow: #E6CF49;
+$orange: #F78C45;
+$white: #FFF;
+
+// w - 12px
+
+div {
+  display: inline-flex;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.card {
+  background-color: $wall;
+  height: 600px;
+  position: relative;
+  width: 800px;
+  &__message {
+    background-color: $white;
+    bottom: 150px;
+    height: 264px;
+    position: absolute;
+    right: 35px;;
+    width: 390px;
+    &--1 {
+      @extend .absolute;
+      background-color: $wall;
+      height: 12px;
+      left: 0px;
+      width: 24px;
+    }
+    &--2 {
+      @extend .absolute;
+      background-color: $wall;
+      height: 12px;
+      right: 0px;
+      width: 24px;
+    }
+    &--3 {
+      @extend .absolute;
+      background-color: $wall;
+      height: 12px;
+      left: 0px;
+      top: 12px;
+      width: 12px;
+    }
+    &--4 {
+      @extend .absolute;
+      background-color: $wall;
+      height: 12px;
+      right: 0px;
+      top: 12px;
+      width: 12px;
+    }
+    &--5 {
+      @extend .absolute;
+      background-color: $darkblue;
+      height: 72px;
+      left: 48px;
+      top: 36px;
+      width: 12px;
+    }
+    &--6 {
+      @extend .absolute;
+      background-color: $darkblue;
+      height: 12px;
+      left: 60px;
+      top: 72px;
+      width: 24px;
+    }
+    &--7 {
+      @extend .absolute;
+      @extend .card__message--5;
+      left: 84px;
+    }
+    &--8 {
+      @extend .absolute;
+      background-color: $darkblue;
+      height: 60px;
+      left: 108px;
+      top: 48px;
+      width: 12px;
+    }
+    &--9 {
+      @extend .absolute;
+      @extend .card__message--2;
+      background-color: $darkblue;
+      left: 120px;
+      top: 36px;
+    }
+    &--10 {
+      @extend .absolute;
+      @extend .card__message--8;
+      left: 144px;
+    }
+    &--11 {
+      @extend .absolute;
+      @extend .card__message--9;
+      top: 72px;
+    }
+    &--12 {
+      @extend .absolute;
+      @extend .card__message--5;
+      left: 168px;
+    }
+    &--13 {
+      @extend .absolute;
+      @extend .card__message--6;
+      left: 180px;
+      top: 72px;
+    }
+    &--14 {
+      @extend .absolute;
+      @extend .card__message--6;
+      left: 180px;
+      top: 36px;
+    }
+    &--15 {
+      @extend .absolute;
+      background-color: $darkblue;
+      height: 24px;
+      left: 204px;
+      top: 48px;
+      width: 12px;
+    }
+    &--16 {
+      @extend .absolute;
+      @extend .card__message--12;
+      left: 228px;
+    }
+    &--17 {
+      @extend .absolute;
+      @extend .card__message--13;
+      left: 240px;
+    }
+    &--18 {
+      @extend .absolute;
+      @extend .card__message--14;
+      left: 240px;
+    }
+    &--19 {
+      @extend .absolute;
+      @extend .card__message--15;
+      left: 264px;
+    }
+    &--20 {
+      @extend .absolute;
+      @extend .card__message--5;
+      height: 36px;
+      left: 288px;
+    }
+    &--21 {
+      @extend .absolute;
+      @extend .card__message--20;
+      left: 324px;
+    }
+    &--22 {
+      @extend .absolute;
+      @extend .card__message--17;
+      left: 300px;
+    }
+    &--23 {
+      @extend .absolute;
+      @extend .card__message--19;
+      left: 312px;
+      top: 84px;
+    }
+    &--24 {
+      @extend .absolute;
+      @extend .card__message--5;
+      height: 84px;
+      top: 144px;
+    }
+    &--25 {
+      @extend .absolute;
+      @extend .card__message--6;
+      top: 144px;
+    }
+    &--26 {
+      @extend .absolute;
+      @extend .card__message--6;
+      top: 180px;
+    }
+    &--27 {
+      @extend .absolute;
+      @extend .card__message--6;
+      top: 216px;
+    }
+    &--28 {
+      @extend .absolute;
+      @extend .card__message--15;
+      left: 84px;
+      top: 156px;
+    }
+    &--29 {
+      @extend .absolute;
+      @extend .card__message--28;
+      top: 192px;
+    }
+    &--30 {
+      @extend .absolute;
+      @extend .card__message--6;
+      left: 108px;
+      top: 180px;
+      width: 36px;
+    }
+    &--31 {
+      @extend .absolute;
+      @extend .card__message--24;
+      left: 156px;
+    }
+    &--32 {
+      @extend .absolute;
+      @extend .card__message--25;
+      left: 168px;
+    }
+    &--33 {
+      @extend .absolute;
+      @extend .card__message--27;
+      left: 168px;
+    }
+    &--34 {
+      @extend .absolute;
+      @extend .card__message--5;
+      height: 60px;
+      left: 192px;
+      top: 156px;
+    }
+    &--35 {
+      @extend .absolute;
+      @extend .card__message--5;
+      left: 216px;
+      top: 156px;
+    }
+    &--36 {
+      @extend .absolute;
+      @extend .card__message--32;
+      left: 228px;
+    }
+    &--37 {
+      @extend .absolute;
+      @extend .card__message--35;
+      left: 252px;
+    }
+    &--38 {
+      @extend .absolute;
+      @extend .card__message--36;
+      top: 180px;
+    }
+    &--39 {
+      @extend .absolute;
+      @extend .card__message--20;
+      left: 276px;
+      top: 144px;
+    }
+    &--40 {
+      @extend .absolute;
+      @extend .card__message--39;
+      left: 324px;
+    }
+    &--41 {
+      @extend .absolute;
+      @extend .card__message--38;
+      left: 288px;
+      width: 36px;
+    }
+    &--42 {
+      @extend .absolute;
+      @extend .card__message--40;
+      left: 300px;
+      top: 192px;
+    }
+    &--43 {
+      @extend .absolute;
+      @extend .card__message--3;
+      top: 240px;
+    }
+    &--44 {
+      @extend .absolute;
+      @extend .card__message--1;
+      top: 252px;
+    }
+    &--45 {
+      @extend .absolute;
+      @extend .card__message--2;
+      top: 252px;
+    }
+    &--46 {
+      @extend .absolute;
+      @extend .card__message--4;
+      top: 240px;
+    }
+    &--47 {
+      @extend .absolute;
+      background-color: $white;
+      height: 12px;
+      left: 48px;
+      width: 48px;
+      top: 264px;
+    }
+    &--48 {
+      @extend .absolute;
+      @extend .card__message--47;
+      width: 36px;
+      top: 276px;
+    }
+    &--49 {
+      @extend .absolute;
+      @extend .card__message--47;
+      left: 36px;
+      width: 24px;
+      top: 288px;
+    }
+  }
+}
