@@ -800,6 +800,76 @@ div {
       top: 288px;
       width: 156px;
     }
+    &--115 {
+      @extend .absolute;
+      animation: flame-neck1;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      background-color: $yellow;
+      height: 12px;
+      left: 96px;
+      top: 264px;
+      width: 12px;
+    }
+    &--116 {
+      @extend .absolute;
+      @extend .card__boy--115;
+      animation: flame-neck2;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      left: 120px;
+    }
+    &--117 {
+      @extend .absolute;
+      @extend .card__boy--115;
+      left: 144px;
+    }
+    &--118 {
+      @extend .absolute;
+      @extend .card__boy--115;
+      animation: flame-neck2;  
+      animation-duration: 2s;
+      animation-iteration-count: infinite;    
+      left: 168px;
+    }
+    &--119 {
+      @extend .absolute;
+      animation: flame-onneck;  
+      animation-duration: 3s;
+      animation-iteration-count: infinite; 
+      background-color: $yellow;
+      height: 12px;
+      left: 84px;
+      top: 252px;
+      width: 12px;  
+    }
+    &--120 {
+      @extend .absolute;
+      @extend .card__boy--119;
+      background-color: $orange;
+      left: 108px;
+    }
+    &--121 {
+      @extend .absolute;
+      @extend .card__boy--119;
+      left: 132px;
+    }
+    &--122 {
+      @extend .absolute;
+      @extend .card__boy--120;
+      left: 156px;
+    }
+  }
+  &__cake {
+    @extend .absolute;
+    animation: cake;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: #B72A67;
+    height: 120px;
+    margin: 50px;
+    top: 288px;
+    width: 276px;
   }
   &__message {
     @extend .absolute;
@@ -1109,4 +1179,38 @@ div {
   98% { opacity: 0; }
   99% { opacity: 1; }
   100% { opacity: 1; }
+}
+
+@keyframes flame-neck1 {
+  0% { background-color: $yellow }
+  49% { background-color: $yellow }
+  50% { background-color: $orange }
+  60% { background-color: $orange }
+  61% { background-color: $yellow }
+  100% { background-color: $yellow }
+}
+
+@keyframes flame-neck2 {
+  0% { background-color: $orange }
+  49% { background-color: $orange }
+  50% { background-color: $yellow }
+  60% { background-color: $yellow }
+  61% { background-color: $orange }
+  100% { background-color: $orange }
+}
+
+@keyframes flame-onneck {
+  0% { opacity: 1; }
+  59% { opacity: 1; }
+  60% { opacity: 0; }
+  99% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes cake {
+  0% { top: 276px; }
+  59% { top: 276px; }
+  60% { top: 288px; }
+  99% { top: 288px; }
+  100% { top: 276px; }
 }
