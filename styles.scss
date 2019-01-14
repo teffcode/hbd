@@ -33,6 +33,35 @@ div {
     height: 276px;
     width: 276px;
     margin: 50px;
+    &--lefteyetop {
+      @extend .absolute;
+      animation: eye;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      background-color: $gray;
+      height: 24px;
+      left: 72px;
+      top: 180px;
+      width: 24px;
+    }
+    &--lefteyebottom {
+      @extend .absolute;
+      background-color: $gray;
+      height: 24px;
+      left: 72px;
+      top: 192px;
+      width: 24px;
+    }
+    &--righteyetop {
+      @extend .absolute;
+      @extend .card__boy--lefteyetop;
+      left: 180px;
+    }
+    &--righteyebottom {
+      @extend .absolute;
+      @extend .card__boy--lefteyebottom;
+      left: 180px;
+    }
     &--1 {
       @extend .absolute;
       background-color: $wall;
@@ -1069,4 +1098,15 @@ div {
       top: 288px;
     }
   }
+}
+
+@keyframes eye {
+  0% { opacity: 1; }
+  48% { opacity: 1; }
+  49% { opacity: 0; }
+  55% { opacity: 1; }
+  57% { opacity: 0; }
+  98% { opacity: 0; }
+  99% { opacity: 1; }
+  100% { opacity: 1; }
 }
