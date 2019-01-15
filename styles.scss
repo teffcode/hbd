@@ -1077,6 +1077,14 @@ div {
       top: 48px;
       width: 36px;
     }
+    &--34 {
+      @extend .absolute;
+      background-color: $skin;
+      height: 12px;
+      left: 156px;
+      top: 60px;
+      width: 12px;
+    }
   }
   &__message {
     @extend .absolute;
@@ -1377,6 +1385,13 @@ div {
       width: 24px;
       top: 288px;
     }
+  }
+  &__floor {
+    @extend .absolute;
+    background-color: $floor;
+    bottom: 0px;
+    height: 49px;
+    width: 800px;
   }
 }
 
