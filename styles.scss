@@ -866,7 +866,6 @@ div {
     animation: cake;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    background-color: #B72A67;
     height: 108px;
     margin: 50px;
     top: 288px;
@@ -1084,6 +1083,155 @@ div {
       left: 156px;
       top: 60px;
       width: 12px;
+    }
+    &--35 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 12px;
+      left: 48px;
+      width: 24px;
+    }
+    &--36 {
+      @extend .absolute;
+      @extend .card__cake--35;
+      left: 204px;
+    }
+    &--37 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 12px;
+      left: 36px;
+      top: 12px;
+      width: 12px;
+    }
+    &--38 {
+      @extend .absolute;
+      @extend .card__cake--37;
+      background-color: $darkgray;
+      left: 48px;
+    }
+    &--39 {
+      @extend .absolute;
+      @extend .card__cake--38;
+      left: 216px;
+    }
+    &--40 {
+      @extend .absolute;
+      @extend .card__cake--37;
+      left: 228px;
+    }
+    &--41 {
+      @extend .absolute;
+      @extend .card__cake--37;
+      left: 24px;
+      top: 24px;
+    }
+    &--42 {
+      @extend .absolute;
+      background-color: $darkgray;
+      height: 12px;
+      left: 36px;
+      top: 24px;
+      width: 24px;
+    }
+    &--43 {
+      @extend .absolute;
+      @extend .card__cake--42;
+      left: 216px;
+    }
+    &--44 {
+      @extend .absolute;
+      @extend .card__cake--41;
+      left: 240px;
+    }
+    &--45 {
+      @extend .absolute;
+      @extend .card__cake--41;
+      left: 12px;
+      top: 36px;
+    }
+    &--46 {
+      @extend .absolute;
+      background-color: $darkgray;
+      height: 12px;
+      left: 24px;
+      top: 36px;
+      width: 36px;
+    }
+    &--47 {
+      @extend .absolute;
+      @extend .card__cake--46;
+      left: 216px;
+    }
+    &--48 {
+      @extend .absolute;
+      @extend .card__cake--45;
+      left: 252px;
+    }
+    &--49 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 12px;
+      left: 12px;
+      top: 48px;
+      width: 48px;
+    }
+    &--50 {
+      @extend .absolute;
+      @extend .card__cake--49;
+      left: 216px;
+    }
+    &--51 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 36px;
+      left: 12px;
+      top: 60px;
+      width: 12px;
+    }
+    &--52 {
+      @extend .absolute;
+      @extend .card__cake--51;
+      left: 252px;
+    }
+    &--53 {
+      @extend .absolute;
+      background-color: $skin;
+      height: 36px;
+      left: 24px;
+      top: 60px;
+      width: 24px;
+    }
+    &--54 {
+      @extend .absolute;
+      @extend .card__cake--53;
+      left: 228px;
+    }
+    &--55 {
+      @extend .absolute;
+      background-color: $gray;
+      height: 36px;
+      left: 48px;
+      top: 60px;
+      width: 12px;
+    }
+    &--56 {
+      @extend .absolute;
+      @extend .card__cake--55;
+      left: 216px;
+    }
+    &--57 {
+      @extend .absolute;
+      background-color: $brown;
+      height: 12px;
+      left: 24px;
+      top: 96px;
+      width: 36px;
+    }
+    &--58 {
+      @extend .absolute;
+      @extend .card__cake--57;
+      left: 216px;
     }
   }
   &__message {
