@@ -904,6 +904,52 @@ div {
       top: 252px;
       width: 12px; 
     }
+    &--127 {
+      @extend .absolute;
+      animation: mouth1;  
+      animation-duration: 3s;
+      animation-iteration-count: infinite; 
+      background-color: $skin;
+      height: 12px;
+      left: 108px;
+      top: 228px;
+      width: 12px; 
+    }
+    &--128 {
+      @extend .absolute;
+      @extend .card__boy--127;
+      animation: mouth1;  
+      animation-duration: 3s;
+      animation-iteration-count: infinite; 
+      left: 156px;
+    }
+    &--129 {
+      @extend .absolute;
+      background-color: $darkskin;
+      height: 12px;
+      left: 120px;
+      top: 228px;
+      width: 12px; 
+    }
+    &--130 {
+      @extend .absolute;
+      background-color: $darkskin;
+      height: 12px;
+      left: 132px;
+      top: 228px;
+      width: 12px; 
+    }
+    &--131 {
+      @extend .absolute;
+      animation: mouth1;  
+      animation-duration: 3s;
+      animation-iteration-count: infinite; 
+      background-color: $darkskin;
+      height: 12px;
+      left: 144px;
+      top: 228px;
+      width: 12px; 
+    }
   }
   &__cake {
     @extend .absolute;
@@ -1664,5 +1710,21 @@ div {
   85% { background-color: $skin }
   95% { background-color: $skin }
   99% { background-color: $yellow }
+  100% { background-color: $skin }
+}
+
+// @keyframes mouth1 {
+//   0% { background-color: $darkskin }
+//   29% { background-color: $darkskin }
+//   30% { background-color: $skin }
+//   31% { background-color: $skin }
+//   100% { background-color: $skin }
+// }
+
+@keyframes mouth1 {
+  0% { background-color: $skin }
+  59% { background-color: $skin }
+  60% { background-color: $darkskin; }
+  99% { background-color: $darkskin }
   100% { background-color: $skin }
 }
