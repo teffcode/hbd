@@ -804,7 +804,7 @@ div {
     &--115 {
       @extend .absolute;
       animation: flame-neck1;
-      animation-duration: 2s;
+      animation-duration: 1s;
       animation-iteration-count: infinite;
       background-color: $yellow;
       height: 12px;
@@ -816,7 +816,7 @@ div {
       @extend .absolute;
       @extend .card__boy--115;
       animation: flame-neck2;
-      animation-duration: 2s;
+      animation-duration: 1s;
       animation-iteration-count: infinite;
       left: 120px;
     }
@@ -829,7 +829,7 @@ div {
       @extend .absolute;
       @extend .card__boy--115;
       animation: flame-neck2;  
-      animation-duration: 2s;
+      animation-duration: 1s;
       animation-iteration-count: infinite;    
       left: 168px;
     }
@@ -859,6 +859,50 @@ div {
       @extend .absolute;
       @extend .card__boy--120;
       left: 156px;
+    }
+    &--123 {
+      @extend .absolute;
+      animation: flame-face-b1;  
+      animation-duration: 3s;
+      animation-iteration-count: infinite; 
+      background-color: $skin;
+      height: 12px;
+      left: 96px;
+      top: 252px;
+      width: 12px; 
+    }
+    &--124 {
+      @extend .absolute;
+      animation: flame-face-b2;  
+      animation-duration: 3s;
+      animation-iteration-count: infinite; 
+      background-color: $skin;
+      height: 12px;
+      left: 120px;
+      top: 252px;
+      width: 12px; 
+    }
+    &--125 {
+      @extend .absolute;
+      animation: flame-face-b1;  
+      animation-duration: 3s;
+      animation-iteration-count: infinite; 
+      background-color: $skin;
+      height: 12px;
+      left: 144px;
+      top: 252px;
+      width: 12px; 
+    }
+    &--126 {
+      @extend .absolute;
+      animation: flame-face-b2;  
+      animation-duration: 3s;
+      animation-iteration-count: infinite; 
+      background-color: $skin;
+      height: 12px;
+      left: 168px;
+      top: 252px;
+      width: 12px; 
     }
   }
   &__cake {
@@ -1541,6 +1585,13 @@ div {
     height: 49px;
     width: 800px;
   }
+  &__by {
+    @extend .absolute;
+    bottom: -21px;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    right: 30px;
+  }
 }
 
 @keyframes eye {
@@ -1592,4 +1643,26 @@ div {
   0% { bottom: 204px }
   50% { bottom: 240px }
   100% { bottom: 204px }
+}
+
+@keyframes flame-face-b1 {
+  0% { background-color: $skin }
+  59% { background-color: $skin }
+  60% { background-color: $yellow }
+  69% { background-color: $yellow }
+  70% { background-color: $skin }
+  85% { background-color: $yellow }
+  95% { background-color: $yellow }
+  99% { background-color: $skin }
+  100% { background-color: $yellow }
+}
+
+@keyframes flame-face-b2 {
+  0% { background-color: $skin }
+  69% { background-color: $skin }
+  70% { background-color: $yellow }
+  85% { background-color: $skin }
+  95% { background-color: $skin }
+  99% { background-color: $yellow }
+  100% { background-color: $skin }
 }
